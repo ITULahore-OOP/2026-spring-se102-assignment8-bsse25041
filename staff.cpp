@@ -11,10 +11,10 @@ double Staff :: getSalary(){
 }
 
 void Staff:: displayCardInfo(){
-    cout<<"Card ID: "<<card.getCardID()<<endl;
+    cout<<"Card ID: "<<card.getCardID()<<endl;  //getting the attributes of access card class 
     cout<<"Access Level: "<<card.getAccessLevel()<<endl;
 }
 
-void Staff:: displayRole(){
+void Staff:: displayRole(){  //overriden function
     cout<<"Role: Staff"<<endl;
 }
