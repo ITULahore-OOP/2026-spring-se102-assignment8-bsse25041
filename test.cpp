@@ -2,12 +2,13 @@
 #include "catch.hpp"
 #include <sstream>
 #include <iostream>
-#include "AccessCard.h"
-#include "Student.h"
-#include "Staff.h"
-#include "TeachingAssistant.h"
-#include "TutoringSession.h"
-#include "Department.h"
+#include "universitymember.h"
+#include "accesscard.h"
+#include "student.h"
+#include "staff.h"
+#include "teachingassistant.h"
+#include "tutoringsession.h"
+#include "department.h"
 
 using namespace std;
 

@@ -3,7 +3,7 @@ CXX = g++
 CXXFLAGS = -std=c++11 -Wall
 
 # Source Files for the core classes
-CORE_SRCS = UniversityMember.cpp AccessCard.cpp Student.cpp Staff.cpp TeachingAssistant.cpp TutoringSession.cpp Department.cpp
+CORE_SRCS = universitymember.cpp accesscard.cpp student.cpp staff.cpp teachingassistant.cpp tutoringsession.cpp department.cpp
 CORE_OBJS = $(CORE_SRCS:.cpp=.o)
 
 # Executable names
